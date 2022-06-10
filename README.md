@@ -1,4 +1,4 @@
-This project is a "Portfolio Project" for Codecademy's Computer Science Carreer Path for CS102: Data Structures and Algorithms
+# This project is a "Portfolio Project" for Codecademy's Computer Science Carreer Path for CS102: Data Structures and Algorithms
 
 The project overview from Codecademy (https://www.codecademy.com/paths/computer-science/tracks/cspath-cs-102/modules/data-structures-and-algorithms-portfolio-project/kanban_projects/recommendation-software-project):
 
@@ -14,7 +14,7 @@ Use Git version control
 Use the command line and file navigation
 Write a technical blog post on the project
 
-My Project
+# Desription of My Project
 I chose to make a rental car recommendation.
 
 The cars and car types are stored in lists (see cars.py).

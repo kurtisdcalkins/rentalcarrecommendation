@@ -26,6 +26,7 @@ while start:
     first_choice = input(f"\nStart typing out the type of vehicle you would like to rent (Ex: 's' for sedan, SUV, etc...) and then press 'Enter': ")
     # Creates a list of the car types that begin with the letters that were entered
     reduced_types = find_car_type(first_choice, types_of_cars)
+    
     # If there is more than one option, the user needs to continue to widdle it down
     while len(reduced_types) > 1:
         print("\nThese are our options for the letters you entered:\n")
@@ -42,6 +43,7 @@ while start:
     if len(reduced_types) < 1:
         print("\nSorry, there are no types of cars that match those letters in our inventory. Please try again.\n")
         continue
+    
     # Shows the chosen type as a list of one
     print(make_types_readable(reduced_types))
     # Populates a list of all the cars from the each_car linked list   
@@ -51,6 +53,7 @@ while start:
     # Ensures a valid choice was made
     while (choose_car != 'y') and (choose_car != 'n'):
         choose_car = input(f"Invalid choice. Do you want to see a list of {chosen_type}'s ('y' or 'n')?\n")
+    
     # If the user wants to see the vehicles, the script will display all the of them that fall within that type
     if choose_car == 'y':
         print(f"\nThese are the available {chosen_type}'s:\n")

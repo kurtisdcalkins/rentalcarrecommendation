@@ -61,5 +61,3 @@ cars = [["truck", "Toyota", "Tacoma", "2", "2", "45"],
         ["RV", "Monaco", "Dynasty 42DS", "3", "8", "100"]
 ]
 
-
-print(cars)

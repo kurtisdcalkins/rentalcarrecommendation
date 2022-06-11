@@ -9,7 +9,7 @@ def insert_car_types():
         car_type_list.insert_beginning(type)
     return car_type_list
 
-# Runs a loop through the list of cars to add each one to a linked list
+# Runs a loop through the list of cars to add each one to a linked lists
 def insert_cars():
     car_list = LinkedList()
     for car in cars:
